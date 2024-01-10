@@ -1,0 +1,27 @@
+* {
+  background-color: #131415;
+}
+
+/* Seleccionamos el título con un selector de etiqueta y vemos que es más especifico el selector en linea */
+h1 {
+  color: #fff;
+}
+
+/* Comparamos el selector en linea con el selector de clase y vemos que es más especifico el selector en linea */
+.Subtitulo {
+  color: blue;
+}
+
+/* El selector en linea es mas especifico que el selector id, pero el important es más especifico que todos  */
+#Párrafo {
+  color: green !important;
+}
+
+/* Comparamos el selector de clase con el selector id  y vemos que es más especifico el id*/
+.Clase_párrafo {
+  color: blue;
+}
+
+#Selector_id {
+  color: yellow;
+}
